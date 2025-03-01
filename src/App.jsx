@@ -1,5 +1,6 @@
 import './App.css'
 import { useTranslation } from 'react-i18next'
+import LanguageSelector from './components/language-selector';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
 
   return (
     <>
+    <LanguageSelector />
       <h1>{t('greeting')}</h1>
     </>
   )
