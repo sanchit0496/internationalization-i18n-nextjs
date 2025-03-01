@@ -16,7 +16,7 @@ i18n.
           greeting: "Hello",
           description:{
             line1: 'eng',
-            line2: 'desc {{test}}'
+            line2: 'desc <1>{{test}}</1>'
           } 
         }
       },
@@ -25,7 +25,7 @@ i18n.
           greeting: "Hola",
           description:{
             line1: 'fr',
-            line2: 'desc {{test}}'
+            line2: 'desc <1>{{test}}</1>'
           } 
         }
       },
@@ -34,7 +34,7 @@ i18n.
           greeting: "Nmste",
           description:{
             line1: 'hi',
-            line2: 'desc {{test}}'
+            line2: 'desc <1>{{test}}</1>'
           } ,
         }
       }
