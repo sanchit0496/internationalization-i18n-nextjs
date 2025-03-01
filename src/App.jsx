@@ -1,10 +1,13 @@
 import './App.css'
+import { useTranslation } from 'react-i18next'
 
 function App() {
 
+  const { t } = useTranslation();
+
   return (
     <>
-      <h1>Hello World</h1>
+      <h1>{t('greeting')}</h1>
     </>
   )
 }
