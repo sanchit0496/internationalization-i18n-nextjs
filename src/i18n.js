@@ -8,20 +8,34 @@ i18n.
     .init({
     lng: 'en', // if you're using a language detector, do not define the lng option
     debug: true,
+    fallbackLng: 'en',
+    returnObjects: true,
     resources: {
       en: {
         translation: {
-          greeting: "Hello"
+          greeting: "Hello",
+          description:{
+            line1: 'eng',
+            line2: 'desc {{test}}'
+          } 
         }
       },
       fr: {
         translation: {
-          greeting: "Hola"
+          greeting: "Hola",
+          description:{
+            line1: 'fr',
+            line2: 'desc {{test}}'
+          } 
         }
       },
       hi: {
         translation: {
-          greeting: "Nmste"
+          greeting: "Nmste",
+          description:{
+            line1: 'hi',
+            line2: 'desc {{test}}'
+          } ,
         }
       }
     }
